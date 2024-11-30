@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="icon" href="./pngtree-user-vector-avatar-png-image_4830521.jpg">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="../sign/css/sign.css">
+</head>
+
+<body>
+    <div class=" wrapper">
+        <form action="">
+         <h1>registration</h1>
+         <div class="input-box">
+            <input id="signupName" placeholder="Enter your name" type="text">
+             <i class="fa-solid fa-user"></i>
+         </div>
+         <div class="input-box">
+            <input oninput="validationEmail()" id="signupEmail" placeholder="Enter your email" type="email">
+            <i class="fa-solid fa-envelope"></i>
+         </div>
+         <div class="input-box">
+            <input oninput="validationPassword()" id="signupPassword" placeholder="Enter  password" type="password">
+             <i class="fa-solid fa-lock"></i>
+         </div>
+         <a class="btn" onclick="registerUser()">Sign Up</a>
+         <div class="sign-link">
+            <p class="text-white">You have an account? <a class='text-white link' href='../index.html'>Signin</a></p>
+         </div>
+        </form>
+     </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../sign/js/sign.js"></script>
+</body>
